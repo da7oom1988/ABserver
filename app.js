@@ -11,6 +11,7 @@ const mediaRoutes = require('./routes/media')
 require('dotenv').config()
 const app = express()
 // hello
+// hi shahd
 //middleware
 app.use(express.json())
 app.use(fileUpload({
